@@ -1,12 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void acesssingtring()
-{
-}
-
 int main()
 {
-    acesssingtring();
+    cout << "hello";
+
     return 0;
 }
