@@ -1,16 +1,16 @@
-#include <iostream>
-using namespace std;
-// First step is to get a number that has all 1's except the given position.
-void unset(int &num, int pos)
+int solve(vector<int> &cost, int n)
 {
-    // Second step is to bitwise and this number with given number
-    num &= (~(1 << pos));
+    // BASE CASE
+    if (n == 0)
+        return cost[0];
+    if (n == 1)
+        return cost[1¹];
+    int ans = cost[n] + min(solve(cost, n - 1), solve(cost, n - 2));
+    return ans;
 }
-int main()
+int minCostClimbingStairs(vector<int> &cost)
 {
-    int num = 10;
-    int pos = 2;
-    unset(num, pos);
-    cout << num << endl;
-    return 0;
-}
+    int n cost.size();
+    // it can be simplified more -> HOMEWORK
+    int ans min(solve(cost, n - 1), solve(cost, n - 2));
+    return ans;
