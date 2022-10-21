@@ -1,16 +1,27 @@
-int solve(vector<int> &cost, int n)
+class Solution
 {
-    // BASE CASE
-    if (n == 0)
-        return cost[0];
-    if (n == 1)
-        return cost[1¹];
-    int ans = cost[n] + min(solve(cost, n - 1), solve(cost, n - 2));
-    return ans;
-}
-int minCostClimbingStairs(vector<int> &cost)
-{
-    int n cost.size();
-    // it can be simplified more -> HOMEWORK
-    int ans min(solve(cost, n - 1), solve(cost, n - 2));
-    return ans;
+public:
+    vector<string> topKFrequent(vector<string> &words, int k)
+    {
+        map<string, int> m;
+        for (auto &word : words)
+        {
+            m[word]++;
+        }
+        vector<pair<string, int>> w;
+        for (auto &x : m)
+        {
+            w.push_back({x.first, x.second});
+        }
+        sort(w.begin(), w.end(), [&](pair<string, int> &a, pair<string, int> &b)
+             {
+            if (a.second == b.second)return a.first < b.first;
+            return a.second > b.second; });
+        vector<string> ans;
+        for (int i = 0; i < k; i++)
+        {
+            ans.push_back(w[i].first);
+        }
+        return ans;
+    }
+};
