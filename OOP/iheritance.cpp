@@ -38,6 +38,18 @@ public:
 
 class Student : public male
 {
+    void level3()
+    {
+        cout << "I'm from Student Class" << endl;
+    }
+};
+
+class FemaleStudent : public Student
+{
+    void level4()
+    {
+        cout << "I'm from FemaleStudent Class" << endl;
+    }
 };
 
 int main()
@@ -46,12 +58,19 @@ int main()
     cout << "Height is " << h1.getHeight() << endl;
     h1.sleep();
 
-    // accessing  Human class from Student class
+    // multilevel inheritance
+    //  accessing  Human class from Student class
     Student s1;
     s1.testing();
 
     // accessing  Male class from Student class
     s1.sleep();
+
+    // accessing  Human class from FemaleStudent class 4 level
+    FemaleStudent f1;
+
+    // f1.level3();
+    f1.testing();
 
     return 0;
 }
