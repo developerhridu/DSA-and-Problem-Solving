@@ -26,6 +26,8 @@ void insertAtHead(Node *&head, int d)
 {
     Node *temp = new Node(d);
     temp->next = head;
+
+    // update head
     head = temp;
 }
 
@@ -33,11 +35,14 @@ void insertAtTail(Node *&tail, int d)
 {
     Node *temp = new Node(d);
     tail->next = temp;
+
+    // update tail
     tail = temp;
 }
 
 void insertAtAnyPosition(Node *&head, Node *&tail, int position, int d)
 {
+
     if (position == 1)
     {
         insertAtHead(head, d);
@@ -48,6 +53,7 @@ void insertAtAnyPosition(Node *&head, Node *&tail, int position, int d)
     int cnt = 1;
     while (cnt < position - 1)
     {
+        // traversing the linked list till position -1
         temp = temp->next;
         cnt++;
     }
