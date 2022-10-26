@@ -99,6 +99,7 @@ int main()
 }
 
 /*
+Output:
 1 is push to queue
 2 is push to queue
 3 is push to queue
