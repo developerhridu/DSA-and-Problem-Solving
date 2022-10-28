@@ -15,6 +15,7 @@ class Heap
     void insert(int value);
     void print();
     void deleteFromHeap();
+    
 };
 
 void Heap:: insert(int value)
@@ -41,6 +42,8 @@ void Heap:: insert(int value)
         }
     }
 }
+
+
 
 void Heap:: deleteFromHeap()
 {

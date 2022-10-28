@@ -1,9 +1,11 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    // Write C++ code here
-    std::cout << "Hello world!";
+int main()
+{
+    cout << "H";
+    
 
-    return 0;
+
+return 0;
 }
