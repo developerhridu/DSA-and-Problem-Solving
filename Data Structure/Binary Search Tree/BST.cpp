@@ -16,6 +16,13 @@ class Node
     }
     
 };
+void inorder(Node* root)
+{
+    cout<<"inorder";
+    inorder(root->left);
+    cout << root->data << endl;
+    inorder(root->right);
+}
 
 Node* insert(Node* root, int d)
 {
@@ -37,13 +44,7 @@ Node* insert(Node* root, int d)
     return root;
 
 }
-void inorder(Node* &root)
-{
-    cout<<"inorder";
-    inorder(root->left);
-    cout << root->data << endl;
-    inorder(root->right);
-}
+
 
 
 
