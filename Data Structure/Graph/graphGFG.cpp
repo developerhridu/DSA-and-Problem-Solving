@@ -1,8 +1,6 @@
 // A simple representation of graph using STL
 #include <iostream>
 #include <vector>
-// #include <unordered_map>
-// #include <list>
 using namespace std;
 
 // A utility function to add an edge in an
