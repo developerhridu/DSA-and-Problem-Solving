@@ -1,0 +1,5 @@
+print('Enter an array')
+z = input()
+x = int(z)
+print(x)
+print(type(x))
