@@ -1,24 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-
-	stack <int>s;
-    s.push(1);
-    s.push(2);
-    s.push(3);
-
-	while (!s.empty())
+int main() {
+    int t;
+    cin >> t;
+    while (t--)
     {
-        /* code */
-        cout << s.top() <<" ";
-        s.pop();
-    }
-    cout << endl;
+        cout << t << endl;
+        for (int i = 0; i < 10; ++i) {
+            
+        }
+        
 
-    s.push(10);
-    if(s.empty()) cout << "Empty" << endl;
-    else cout << "not empty" << " size is "<< s.size() << endl;
-    
+    }
+    return 0;
 }
