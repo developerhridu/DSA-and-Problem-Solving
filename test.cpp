@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int positionOfElement(int arr[],int n, int key)
@@ -18,7 +19,7 @@ int main() {
     
  
     
-    int key = 48;
+    int key = 40;
 
     int pos = positionOfElement(arr,n, key);
     cout << pos << endl;
