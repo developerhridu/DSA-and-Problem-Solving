@@ -19,7 +19,7 @@ int main() {
     
  
     
-    int key = 40;
+    int key = 34;
 
     int pos = positionOfElement(arr,n, key);
     cout << pos << endl;
