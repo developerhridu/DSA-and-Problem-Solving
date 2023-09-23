@@ -1,24 +1,18 @@
-// C program to illustrate constant variable definition
-#include <stdio.h>
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
 
-int main()
-{
+int main() {
+    // defining an integer constant
+	const int var = 10;
 
-	// defining integer constant using const keyword
-	const int int_const = 25;
+	printf("Initial Value of Constant: %d\n", var);
 
-	// defining character constant using const keyword
-	const char char_const = 'A';
-
-	// defining float constant using const keyword
-	const float float_const = 15.66;
-
-	printf("Printing value of Integer Constant: %d\n",
-		int_const);
-	printf("Printing value of Character Constant: %c\n",
-		char_const);
-	printf("Printing value of Float Constant: %f",
-		float_const);
-
+	// defining a pointer to that const variable
+	int* ptr = &var;
+	// changing value
+	*ptr = 500;
+	printf("Final Value of Constant: %d", var);
 	return 0;
+ 
 }
