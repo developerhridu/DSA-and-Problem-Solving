@@ -1,27 +1,24 @@
-#include <bits/stdc++.h>
-#include <iostream>
-using namespace std;
+// C program to illustrate constant variable definition
+#include <stdio.h>
 
-int positionOfElement(int arr[],int n, int key)
+int main()
 {
-    
-    for (int i = 0; i < n; ++i) {
-        if(arr[i] == key)
-            return i+1;
-    }
 
-return -1;
-}
+	// defining integer constant using const keyword
+	const int int_const = 25;
 
-int main() {
-    int arr[] = { 12, 34, 10, 6, 40 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-    
- 
-    
-    int key = 34;
+	// defining character constant using const keyword
+	const char char_const = 'A';
 
-    int pos = positionOfElement(arr,n, key);
-    cout << pos << endl;
-    return 0;
+	// defining float constant using const keyword
+	const float float_const = 15.66;
+
+	printf("Printing value of Integer Constant: %d\n",
+		int_const);
+	printf("Printing value of Character Constant: %c\n",
+		char_const);
+	printf("Printing value of Float Constant: %f",
+		float_const);
+
+	return 0;
 }
