@@ -1,18 +1,27 @@
-#include <bits/stdc++.h>
-#include <iostream>
-using namespace std;
+// C program to illustrate Pointers
+#include <stdio.h>
 
-int main() {
-    // defining an integer constant
-	const int var = 10;
+void geeks()
+{
+	int var = 10;
+    printf("Value at var = %d \n", var);
+	// declare pointer variable
+	int* ptr;
 
-	printf("Initial Value of Constant: %d\n", var);
+	// note that data type of ptr and var must be same
+	ptr = &var;
 
-	// defining a pointer to that const variable
-	int* ptr = &var;
-	// changing value
-	*ptr = 500;
-	printf("Final Value of Constant: %d", var);
+    *ptr = 15; 
+
+	// assign the address of a variable to a pointer
+	printf("Value at ptr = %p \n", ptr);
+	printf("Value at var = %d \n", var);
+	printf("Value at *ptr = %d \n", *ptr);
+}
+
+// Driver program
+int main()
+{
+	geeks();
 	return 0;
- 
 }
