@@ -14,6 +14,7 @@ void geeks()
 
     // changing value at the address of var
     *ptr = 15; 
+   
 
 	// assign the address of a variable to a pointer
 	printf("Value at ptr = %p \n", ptr);
