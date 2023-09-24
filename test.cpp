@@ -4,51 +4,49 @@
 using namespace std;
 
 // Function to print three largest elements
-void print3largest(int arr[], int arr_size)
+void print3largest(int a[], int a_size)
 {
 	int first, second, third;
 
 	// There should be atleast three elements
-	if (arr_size < 3)
+	if (a_size < 3)
 	{
 		cout << " Invalid Input ";
 		return;
 	}
 
 	third = first = second = INT_MIN;
-	for(int i = 0; i < arr_size; i++)
+	for(int i = 0; i < a_size; i++)
 	{
 		
 		// If current element is
 		// greater than first
-		if (arr[i] > first)
+		if (a[i] > first)
 		{
 			third = second;
 			second = first;
-			first = arr[i];
+			first = a[i];
 		}
 
-		// If arr[i] is in between first
+		// If a[i] is in between first
 		// and second then update second
-		else if (arr[i] > second && arr[i] != first)
+		else if (a[i] > second && a[i] != first)
 		{
 			third = second;
-			second = arr[i];
+			second = a[i];
 		}
 
-		else if (arr[i] > third && arr[i] != second && arr[i] != first)
-			third = arr[i];
+		else if (a[i] > third && a[i] != second && a[i] != first)
+			third = a[i];
 	}
 
-	cout << "Three largest elements are "
-		<< first << " " << second << " "
-		<< third << endl;
+	return third;
 }
 
 // Driver code
 int main()
 {
-	int arr[] = { 12, 13, 1, 10, 34, 11, 34 };
+	int a[] = { 12, 13, 1, 10, 34, 11, 34 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 	
 	print3largest(arr, n);
