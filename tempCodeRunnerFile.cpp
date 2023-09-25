@@ -1,12 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <string>
+sort(arr, arr+n, greater<int>());
 
-using namespace std;
-
-int main()
-{
-    int x, y;
-    cin >> x;
-   cout << "Hello, world!"<< x<< endl;
-}
+	// for (int i = 0; i < n; ++i)
+    //     cout << arr[i] << " ";
