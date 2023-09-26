@@ -31,6 +31,43 @@ public:
     }
 };
 
+void insertAtTail(Node *&tail, int value){
+    Node *temp = new Node(value);
+
+    tail->next = temp;
+    tail = temp;
+}
+
+void insertAtHead(Node *&head, int value){
+    Node *temp = new Node(value);
+    temp->next = head;
+    head = temp;
+}
+
+void insertAtAnyPosition(Node *&head, Node *&tail, int pos, int value){
+    if(pos == 1){
+        insertAtHead(head, value);
+        return;
+    }
+        
+    Node *temp = head;
+    int cnt = 1;
+    while(cnt < pos - 1){
+        temp = temp->next;
+        cnt++;
+    }
+
+    if(temp->next == NULL){
+        insertAtTail(tail, value);
+        return;
+    }
+        
+    Node *newNode = new Node(value);
+
+    newNode->next = temp->next;
+    temp->next = newNode;
+
+}
 
 
 void print(Node *&head)
@@ -57,6 +94,17 @@ int main() {
     Node *head = newNode;
     Node *tail = newNode;
 
+    insertAtTail(tail, 20);
+    insertAtTail(tail, 30);
+
+    cout << head->data << endl;
+    cout << tail->data << endl;
+
+    insertAtHead(head, 30);  
+    insertAtHead(head, 5); 
+    insertAtAnyPosition(head, tail, 3, 50); 
+    insertAtAnyPosition(head, tail, 7, 100);
+    // insertAtAnyPosition(head, tail, 7, 300);
     print(head);
     
     return 0;
