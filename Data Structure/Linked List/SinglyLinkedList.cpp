@@ -8,7 +8,7 @@ class Node
 
 public:
     int data;
-    Node *next; // next element k point korse
+    Node* next; // next element k point korse
 
     // constructor
     Node(int data)
