@@ -12,10 +12,45 @@ class Node {
         }
 };
 
-void insertAtTail(Node* tail, int data){
+void insertAtTail(Node* &tail, int data){
     Node *dataToInsert = new Node(data);
     tail->next = dataToInsert;
     tail = dataToInsert;
+}
+
+void insertAtHead(Node* &head, int data){
+    Node *dataToInsert = new Node(data);
+    dataToInsert->next = head;
+    head = dataToInsert;
+}
+
+void insertAtAnyPosition(Node* &head, int data, int position){
+    if(position < 0){
+        cout << "Invalid position " << position << endl;
+        return;
+    }
+    else if(position == 1) {
+        insertAtHead(head, data);
+        return;
+    }
+
+    Node *temp = head;
+    
+
+    int cnt = 1;
+    while(cnt < position - 1){
+        if(temp->next == NULL){
+            insertAtTail(temp, data);
+            break;
+            return;
+        }
+        temp = temp->next;
+        cnt++;
+    }
+
+    Node * nodeToInsert = new Node(data);
+    nodeToInsert->next = temp->next;
+    temp->next = nodeToInsert;
 }
 
 void printFullLinkedList(Node *head){
@@ -44,8 +79,13 @@ int main() {
     // cout << head << endl;
     // cout << tail->data << endl;
 
+    insertAtTail(tail, 30);
 
-    i
+    // insertAtHead(head, 20);
+    // insertAtAnyPosition(head, 5, 2);
+    insertAtAnyPosition(head, 500, 6);
+
+
     printFullLinkedList(head);
     
     return 0;
