@@ -1,0 +1,66 @@
+// Define an interface for beverage behavior
+interface Beverage {
+  getDescription(): string;
+  cost(): number;
+}
+
+// Implement a concrete class for a base beverage
+class SimpleCoffee implements Beverage {
+  getDescription(): string {
+    return "Simple Coffee";
+  }
+
+  cost(): number {
+    return 5; // cost in some currency
+  }
+}
+
+// Decorator pattern: Create a decorator for condiments
+abstract class CondimentDecorator implements Beverage {
+  protected beverage: Beverage;
+
+  constructor(beverage: Beverage) {
+    this.beverage = beverage;
+  }
+
+  abstract getDescription(): string;
+  abstract cost(): number;
+}
+
+// Implement concrete decorators for condiments
+class MilkDecorator extends CondimentDecorator {
+  getDescription(): string {
+    return this.beverage.getDescription() + ", Milk";
+  }
+
+  cost(): number {
+    return this.beverage.cost() + 2;
+  }
+}
+
+class SugarDecorator extends CondimentDecorator {
+  getDescription(): string {
+    return this.beverage.getDescription() + ", Sugar";
+  }
+
+  cost(): number {
+    return this.beverage.cost() + 1;
+  }
+}
+
+// Client code
+function orderCoffee(): void {
+  let myCoffee: Beverage = new SimpleCoffee();
+  console.log(`Ordered: ${myCoffee.getDescription()}`);
+  console.log(`Cost: $${myCoffee.cost()}`);
+
+  // Add condiments
+  myCoffee = new MilkDecorator(myCoffee);
+  myCoffee = new SugarDecorator(myCoffee);
+
+  console.log(`Ordered: ${myCoffee.getDescription()}`);
+  console.log(`Cost: $${myCoffee.cost()}`);
+}
+
+// Test the coffee shop
+orderCoffee();
