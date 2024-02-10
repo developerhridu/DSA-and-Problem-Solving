@@ -1,0 +1,14 @@
+F:\DSA-and-Problem-Solving\CSharpConsole\bin\Debug\net6.0\CSharpConsole.exe
+F:\DSA-and-Problem-Solving\CSharpConsole\bin\Debug\net6.0\CSharpConsole.deps.json
+F:\DSA-and-Problem-Solving\CSharpConsole\bin\Debug\net6.0\CSharpConsole.runtimeconfig.json
+F:\DSA-and-Problem-Solving\CSharpConsole\bin\Debug\net6.0\CSharpConsole.dll
+F:\DSA-and-Problem-Solving\CSharpConsole\bin\Debug\net6.0\CSharpConsole.pdb
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.GeneratedMSBuildEditorConfig.editorconfig
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.AssemblyInfoInputs.cache
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.AssemblyInfo.cs
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.csproj.CoreCompileInputs.cache
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.dll
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\refint\CSharpConsole.dll
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.pdb
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\CSharpConsole.genruntimeconfig.cache
+F:\DSA-and-Problem-Solving\CSharpConsole\obj\Debug\net6.0\ref\CSharpConsole.dll
