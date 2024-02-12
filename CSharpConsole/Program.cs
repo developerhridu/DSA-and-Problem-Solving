@@ -2,17 +2,29 @@
 
 class Program
 {
-    static void Main()
+    public static void countFreq(int[] arr, int n)
     {
-        int[] originalArray = { 1, 2, 3, 4, 5 };
-
-        // Using inbuilt method in C#
-        Array.Reverse(originalArray);
-
-        // Print the reversed array
-        foreach (int num in originalArray)
+        bool[] visited = new bool[n];
+        for (int i = 0; i < n; i++)
         {
-            Console.Write(num + " ");
+            if (visited[i] == true) continue;
+            int cnt = 1;
+            for (int j = i + 1; j < n; j++)
+            {
+                if (arr[i] == arr[j])
+                {
+                    cnt++;
+                    visited[j] = true;
+                }
+            }
+            Console.WriteLine(arr[i] + " " + cnt);
         }
+
+    }
+    public static void Main(String[] args)
+    {
+        int[] arr = new int[] { 10, 20, 20, 10, 10, 20, 5, 20 };
+        int n = arr.Length;
+        countFreq(arr, n);
     }
 }
