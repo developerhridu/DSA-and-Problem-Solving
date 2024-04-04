@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hridu\\.nuget\\packages\\": {}
+    "C:\\Users\\TN-99368\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\DSA-and-Problem-Solving\\CSharpConsole\\CSharpConsole.csproj",
+      "projectUniqueName": "D:\\GitHub\\DSA-and-Problem-Solving\\CSharpConsole\\CSharpConsole.csproj",
       "projectName": "CSharpConsole",
-      "projectPath": "F:\\DSA-and-Problem-Solving\\CSharpConsole\\CSharpConsole.csproj",
-      "packagesPath": "C:\\Users\\hridu\\.nuget\\packages\\",
-      "outputPath": "F:\\DSA-and-Problem-Solving\\CSharpConsole\\obj\\",
+      "projectPath": "D:\\GitHub\\DSA-and-Problem-Solving\\CSharpConsole\\CSharpConsole.csproj",
+      "packagesPath": "C:\\Users\\TN-99368\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DSA-and-Problem-Solving\\CSharpConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hridu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TN-99368\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

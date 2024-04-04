@@ -15,7 +15,8 @@ class main {
 
 		return -1;
 	}
-
+	
+ 
 	// Function to delete an element
 	static int deleteElement(int[] arr, int n, int key)
 	{
@@ -29,7 +30,7 @@ class main {
 		}
 
 		// Deleting element
-		int i;
+		
 		for (i = pos; i < n - 1; i++)
 			arr[i] = arr[i + 1];
 
