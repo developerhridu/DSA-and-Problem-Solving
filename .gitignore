@@ -2,3 +2,7 @@
 .gitignore
 DevSkill-Contests
 .Untracked
+/CSharpConsole/.vs
+*.v2
+/CSharpConsole/.vs
+/CSharpConsole
