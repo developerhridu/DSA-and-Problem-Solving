@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProrityQueue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5101d8d6c048c81b42dc570285c11be87551ce15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e52658ff72ca33d2fcd9ac4a44796dee4c21f93a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProrityQueue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProrityQueue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

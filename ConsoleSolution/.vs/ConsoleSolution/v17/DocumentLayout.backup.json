@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|d:\\github\\dsa-and-problem-solving\\consolesolution\\readwritecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|solutionrelative:readwritecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|d:\\github\\dsa-and-problem-solving\\consolesolution\\readwritecsv\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|solutionrelative:readwritecsv\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|d:\\github\\dsa-and-problem-solving\\consolesolution\\readwritecsv\\csvfilewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|solutionrelative:readwritecsv\\csvfilewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|d:\\github\\dsa-and-problem-solving\\consolesolution\\readwritecsv\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EE841C-565C-474A-9A8D-F2D9CF707BCA}|ReadWriteCSV\\ReadWriteCSV.csproj|solutionrelative:readwritecsv\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\FileHelper.cs",
+              "RelativeDocumentMoniker": "ReadWriteCSV\\FileHelper.cs",
+              "ToolTip": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\FileHelper.cs",
+              "RelativeToolTip": "ReadWriteCSV\\FileHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:01:47.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CsvFileReader.cs",
+              "DocumentMoniker": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\CsvFileReader.cs",
+              "RelativeDocumentMoniker": "ReadWriteCSV\\CsvFileReader.cs",
+              "ToolTip": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\CsvFileReader.cs",
+              "RelativeToolTip": "ReadWriteCSV\\CsvFileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:25:24.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CsvFileWriter.cs",
+              "DocumentMoniker": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\CsvFileWriter.cs",
+              "RelativeDocumentMoniker": "ReadWriteCSV\\CsvFileWriter.cs",
+              "ToolTip": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\CsvFileWriter.cs",
+              "RelativeToolTip": "ReadWriteCSV\\CsvFileWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:18:09.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\Program.cs",
+              "RelativeDocumentMoniker": "ReadWriteCSV\\Program.cs",
+              "ToolTip": "D:\\GitHub\\DSA-and-Problem-Solving\\ConsoleSolution\\ReadWriteCSV\\Program.cs",
+              "RelativeToolTip": "ReadWriteCSV\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA2wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:10:18.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

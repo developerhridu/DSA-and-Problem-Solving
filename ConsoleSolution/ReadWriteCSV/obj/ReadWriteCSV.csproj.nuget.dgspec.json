@@ -45,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "IronXL.Excel": {
+              "target": "Package",
+              "version": "[2024.10.2, )"
+            },
+            "Syncfusion.XlsIO.Net.Core": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
