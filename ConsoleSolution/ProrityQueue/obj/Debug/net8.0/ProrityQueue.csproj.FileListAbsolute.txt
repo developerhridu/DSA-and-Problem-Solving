@@ -1,0 +1,15 @@
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\bin\Debug\net8.0\ProrityQueue.exe
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\bin\Debug\net8.0\ProrityQueue.deps.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\bin\Debug\net8.0\ProrityQueue.runtimeconfig.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\bin\Debug\net8.0\ProrityQueue.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\bin\Debug\net8.0\ProrityQueue.pdb
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.AssemblyInfoInputs.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.AssemblyInfo.cs
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.csproj.CoreCompileInputs.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.sourcelink.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\refint\ProrityQueue.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.pdb
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ProrityQueue.genruntimeconfig.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ProrityQueue\obj\Debug\net8.0\ref\ProrityQueue.dll

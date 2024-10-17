@@ -1,0 +1,15 @@
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\bin\Debug\net8.0\ReadWriteCSV.exe
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\bin\Debug\net8.0\ReadWriteCSV.deps.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\bin\Debug\net8.0\ReadWriteCSV.runtimeconfig.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\bin\Debug\net8.0\ReadWriteCSV.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\bin\Debug\net8.0\ReadWriteCSV.pdb
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.AssemblyInfoInputs.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.AssemblyInfo.cs
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.csproj.CoreCompileInputs.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.sourcelink.json
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\refint\ReadWriteCSV.dll
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.pdb
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ReadWriteCSV.genruntimeconfig.cache
+D:\GitHub\DSA-and-Problem-Solving\CSharpConsole\ProrityQueue\ReadWriteCSV\obj\Debug\net8.0\ref\ReadWriteCSV.dll

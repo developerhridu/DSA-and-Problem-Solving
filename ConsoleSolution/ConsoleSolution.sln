@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProrityQueue", "ProrityQueue\ProrityQueue.csproj", "{5C0266BC-B4EF-4DE9-9239-5065E0A1C29B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadWriteCSV", "ReadWriteCSV\ReadWriteCSV.csproj", "{30EE841C-565C-474A-9A8D-F2D9CF707BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C0266BC-B4EF-4DE9-9239-5065E0A1C29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0266BC-B4EF-4DE9-9239-5065E0A1C29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0266BC-B4EF-4DE9-9239-5065E0A1C29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0266BC-B4EF-4DE9-9239-5065E0A1C29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EE841C-565C-474A-9A8D-F2D9CF707BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EE841C-565C-474A-9A8D-F2D9CF707BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EE841C-565C-474A-9A8D-F2D9CF707BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EE841C-565C-474A-9A8D-F2D9CF707BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7B646EA-73A5-4755-A533-E8C624383008}
+	EndGlobalSection
+EndGlobal
