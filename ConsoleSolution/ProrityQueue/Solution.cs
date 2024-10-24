@@ -8,12 +8,24 @@ namespace ProrityQueue
 {
     public class Solution
     {
-        const int num = 10;
-        readonly int num2;
-        public Solution(int x) { 
-            
-            this.num2 = x;
-           
+        public int LastStoneWeight(int[] stones)
+        {
+            if (stones.Length == 1)
+            {
+                return stones[0];
+            }
+
+            int result = 0;
+
+            PriorityQueue<int, int> maxHeap = new PriorityQueue<int, int>(Comparer<int>.Create((a, b) => b.CompareTo(a)));
+
+            foreach (int stone in stones)
+            {
+                maxHeap.Enqueue(stone, stone);
+            }
+
+
+            return result;
         }
 
     }
