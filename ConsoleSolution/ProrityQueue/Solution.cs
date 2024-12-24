@@ -15,7 +15,7 @@ namespace ProrityQueue
                 return stones[0];
             }
 
-            int result = 0;
+            
 
             PriorityQueue<int, int> maxHeap = new PriorityQueue<int, int>(Comparer<int>.Create((a, b) => b.CompareTo(a)));
 
@@ -25,7 +25,18 @@ namespace ProrityQueue
             }
 
 
-            return result;
+            while(maxHeap.Count > 0)
+            {
+                int x = maxHeap.Dequeue();
+                int y = maxHeap.Dequeue();
+
+                if (x != y)
+                {
+                    maxHeap.Enqueue(x - y, x - y);
+                }
+            }
+
+            return maxHeap.Count == 0 ? 0 : maxHeap.Dequeue();
         }
 
     }
